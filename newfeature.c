@@ -1,6 +1,7 @@
 #include <stdio.h>
 
 void main() {
+	//need to print current working dir.
 	char pwd[1024];
 	FILE *f = fopen("pwd-log.log", 'w');
 	getcwd(pwd, sizeof(pwd));
